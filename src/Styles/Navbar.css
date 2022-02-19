@@ -1,0 +1,45 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav li {
+    margin: .5em 1em;
+}
+
+nav a {
+    text-decoration: none;
+    color: #707070;
+    font-weight: 700;
+    padding: .25em 0;
+    font-size: 1rem;
+    
+}
+
+nav a:hover,
+nav a:focus {
+    color: #1792d2
+}
+
+.current-page {
+    border-bottom: 1px solid #707070;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+@media screen and (min-width: 675px) {
+    nav ul {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 830px) {
+    nav {
+        display: flex;
+        align-items: center;
+    }
+}

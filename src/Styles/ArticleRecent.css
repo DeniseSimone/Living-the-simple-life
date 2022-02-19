@@ -1,0 +1,31 @@
+.article-recent {
+    display: flex;
+    flex-direction: column;
+}
+
+.article-recent-main {
+    order: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.article-recent-secondary {
+    order: 1;
+}
+
+@media screen and (min-width: 675px) {
+    .article-recent {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: 1em;
+    }
+    .article-recent-main {
+        width: 60%;
+        align-items: flex-start;
+    }
+    
+    .article-recent-secondary {
+        width: 35%;
+    }
+}

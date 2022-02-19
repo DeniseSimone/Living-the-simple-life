@@ -1,0 +1,12 @@
+aside {
+    width: 100%;
+    background-color: #f8f8f8;
+    height: 100%;
+}
+
+@media screen and (min-width: 675px) {    
+    aside {
+        width: 20%;
+        margin-bottom: 1em;
+    }
+}
